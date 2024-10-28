@@ -29,7 +29,6 @@ const initialValue: Values = {
 };
 
 function ContactForm() {
-  console.log(SERVICE_ID);
   const sendEmail = (values: Values) => {
     const templateParams = {
       name: values.name,
