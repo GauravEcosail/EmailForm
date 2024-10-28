@@ -46,7 +46,7 @@ function ContactForm() {
         alert("Email sent successfully!");
       },
       (error) => {
-        console.log("FAILED...", error.text);
+        console.log("FAILED...", error);
       }
     );
   };
